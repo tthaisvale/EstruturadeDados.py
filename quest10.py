@@ -14,15 +14,12 @@ class Funcionario:
         else:
             return "O percentual de aumento deve ser positivo."
 
-# Criando uma instância da classe Funcionario
 funcionario = Funcionario("Ana", 3000.00, "Analista")
 
-# Aumentando o salário em 10%
 resultado = funcionario.aumentar_salario(10)
 
-print(resultado)  # Saída: Salário aumentado para R$3300.00
+print(resultado) 
 
-# Tentando aumentar o salário com um percentual inválido
 resultado = funcionario.aumentar_salario(-5)
 
-print(resultado)  # Saída: O percentual de aumento deve ser positivo.
+print(resultado)
